@@ -13,10 +13,5 @@ var groupAnagrams = function (strs) {
             groupAnagram.set(sortedWord, [strs[i]])
         }
     }
-
     return Array.from(groupAnagram.values())
-
 };
-
-
-

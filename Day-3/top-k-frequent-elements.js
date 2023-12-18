@@ -25,10 +25,8 @@ var topKFrequent = function (nums, k) {
             iterator++
         } else break;
     }
-
     return res;
 
 };
 
-topKFrequent([3, 0, 1, 0], 1)
 
