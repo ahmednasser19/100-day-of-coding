@@ -1,10 +1,15 @@
 /**
  * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
+  function ListNode(val, next) {
+      this.val = (val===undefined ? 0 : val)
+      this.next = (next===undefined ? null : next)
+ }
  */
+
+function ListNode(val, next) {
+    this.val = (val === undefined ? 0 : val)
+    this.next = (next === undefined ? null : next)
+}
 /**
  * @param {ListNode} list1
  * @param {ListNode} list2
@@ -52,4 +57,4 @@ var mergeTwoLists = function (l1, l2) {
     return headOfNewList.next;
 };
 
-// console.log(mergeTwoLists([1, 2, 4], [1, 3, 4]))
+console.log(mergeTwoLists([1, 2, 4], [1, 3, 4]))
